@@ -1,0 +1,38 @@
+.pageCover{
+    height: 400px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: .8;
+}
+
+.pageCoverContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+
+    .pageCoverTitle{
+        margin-bottom: 20px;
+        font-family: "Fredoka One", Helvetica, sans-serif;
+        font-size: 2em;
+        color: rgb(56, 48, 75);
+    }
+
+    h3{
+        margin-bottom: 30px;
+        font-family: Acme, "Helvetica Neue", sans-serif;
+        font-size: 1.3em;
+        font-weight: normal;
+        color: #00acee;
+    }
+
+    h5{
+        border-bottom: 2px dotted grey;
+
+        font-family: "Trebuchet MS", Helvetica, sans-serif;
+        font-size: 1.1em;
+        font-weight: normal;
+        color: grey;
+    }
+}

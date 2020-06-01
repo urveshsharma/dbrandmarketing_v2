@@ -1,0 +1,30 @@
+.navbar-brand{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font-family: 'PT Sans Narrow', "Helvetica Neue", sans-serif;  
+    
+    .brandTitleFade{
+        font-size: 0.8em;
+        color: rgb(107, 96, 119);
+    }
+    
+    .brandTitle{
+        font-weight: 700;
+        color: rgb(19, 4, 34);
+        line-height: 64px;
+    }
+
+    .brandTitleForBrand{
+        font-weight: 700;
+        color: orange;
+        line-height: 64px;
+    }
+    
+    .logo{
+
+        margin-right: 10px;
+    }
+}
+
+

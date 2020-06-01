@@ -1,0 +1,22 @@
+.header{
+    display: flex;
+    margin-bottom: 5px;
+    justify-content: space-between;
+    align-content: center;
+    background-color: #ffffff;
+
+    .navlinks{
+        justify-content: flex-end;
+        align-items: center;
+        a {
+            font-family: 'PT Sans Narrow', "Helvetica Neue", sans-serif;
+            font-weight: 700;
+            font-size: 1.2em;
+            text-decoration: none;
+            padding: 3px 10px;
+            margin-bottom: 10px;
+            // box-shadow: -2px -2px 5px grey;
+        }
+
+    }
+}

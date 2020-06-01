@@ -1,0 +1,43 @@
+.cBox{
+    margin: 20px 20px;
+    padding: 15px 15px 25px;
+    box-shadow: 3px 4px 10px grey;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    background-color: #bde5fc;
+
+}
+
+.cBoxHeader{
+    border-bottom: 2px solid grey;
+
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 5px auto 20px;
+}
+
+.cBoxIcon{
+    flex-grow: 1;
+}
+
+.cBoxIconImg{
+    width: 64px;
+    height: 64px;
+}
+
+.cBoxTitle{
+    flex-grow: 3;
+    font-weight: 700;
+    font-family: Acme, "Helvetica Neue", sans-serif;
+    font-size: 1.2em;
+    justify-content: center;
+    align-content: center;
+    justify-self: center;
+
+}
+
+.cBoxDetail{
+    font-family: Verdana, "Helvetica Neue", sans-serif;
+    font-size: 1em;
+}

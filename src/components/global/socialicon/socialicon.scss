@@ -1,0 +1,15 @@
+.socialIcon{
+    margin: 10px 20px;
+    height: 60px;
+    width: 60px;
+    padding: 0px;
+    cursor: pointer;
+
+
+    :hover{
+        width: 50px;
+        opacity: 0.7;
+        transition: all 5s ease-out;
+    }
+}
+
