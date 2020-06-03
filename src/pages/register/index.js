@@ -3,7 +3,7 @@ import DefaultLayout from '../../layouts/default'
 import PageTitle from '../../components/global/pageTitle/pageTitle';
 import SellerRegForm from './sellerRegForm';
 import SEO from "../../components/global/seo/seo";
-import bgURL from '../../assets/img/dbrandmarketing/sellOnline.jpg'
+import bgURL from '../../assets/img/dbrandmarketing/sellOnline.png'
 
 const SellerRegPage = () => {
     return (

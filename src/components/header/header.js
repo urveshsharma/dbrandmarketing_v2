@@ -1,4 +1,5 @@
 import React from 'react';
+import Nav from 'react-bootstrap/Nav'
 import NavLink from '../global/navlink/navlink';
 import BrandLogo from '../global/brand/BrandLogo';
 import './header.scss';
@@ -6,7 +7,7 @@ import './header.scss';
 const Header = () => {
     return (
         <header>
-            <nav className="navbar navbar-expand-md navbar-light header">
+            <Nav className="navbar navbar-expand-md navbar-light header">
                 <BrandLogo />
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                     <span className="navbar-toggler-icon"></span>
@@ -18,7 +19,7 @@ const Header = () => {
                     <NavLink title='Register To Advertise' url='/register'/>
                     <NavLink title='Contact Us' url='/contact'/> 
                 </div>
-            </nav>
+            </Nav>
         </header>
     );
 }

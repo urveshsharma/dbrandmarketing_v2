@@ -105,6 +105,14 @@ const SEO = ({ title, description, image }) => {
       {seo.image && <meta name="twitter:image" content={seo.image} />}
       <script type="application/ld+json">{JSON.stringify(schemaOrgWebPage)}</script>    
 
+      
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     </Helmet>
   )
 }

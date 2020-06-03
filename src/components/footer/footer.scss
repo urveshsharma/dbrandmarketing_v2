@@ -4,6 +4,19 @@
     margin-top:25px;
     padding: 25px 0px 10px;
     box-shadow: -10px 0 20px grey;
+    .navlinks{
+        justify-content: flex-end;
+        align-content: center;
+        text-align: center;
+        align-items: center;
+        a {
+            font-family: 'PT Sans Narrow', "Helvetica Neue", sans-serif;
+            font-weight: 700;
+            font-size: 1.2em;
+            text-decoration: none;
+            padding: 0px 10px;
+        }
+    }
 }
 
 .footerIcons{
@@ -30,6 +43,8 @@
     flex-direction: column;
     justify-content: space-around;
     align-content: center;
+    text-align: center;
+    align-items: center;
     padding: 20px;
 }
 

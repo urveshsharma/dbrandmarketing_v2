@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/dbm/static/css/main.d3b8fed9.chunk.css",
+    "main.js": "/dbm/static/js/main.c5b137c6.chunk.js",
+    "main.js.map": "/dbm/static/js/main.c5b137c6.chunk.js.map",
+    "runtime-main.js": "/dbm/static/js/runtime-main.5e6e962d.js",
+    "runtime-main.js.map": "/dbm/static/js/runtime-main.5e6e962d.js.map",
+    "static/js/2.80e0daeb.chunk.js": "/dbm/static/js/2.80e0daeb.chunk.js",
+    "static/js/2.80e0daeb.chunk.js.map": "/dbm/static/js/2.80e0daeb.chunk.js.map",
+    "index.html": "/dbm/index.html",
+    "precache-manifest.b1963269c77b86a41f23523b07a22aba.js": "/dbm/precache-manifest.b1963269c77b86a41f23523b07a22aba.js",
+    "service-worker.js": "/dbm/service-worker.js",
+    "static/css/main.d3b8fed9.chunk.css.map": "/dbm/static/css/main.d3b8fed9.chunk.css.map",
+    "static/js/2.80e0daeb.chunk.js.LICENSE.txt": "/dbm/static/js/2.80e0daeb.chunk.js.LICENSE.txt",
+    "static/media/dBrandMarketing_aboutUs.jpg": "/dbm/static/media/dBrandMarketing_aboutUs.583d89fe.jpg",
+    "static/media/dBrandMarketing_services.jpg": "/dbm/static/media/dBrandMarketing_services.dac58b48.jpg",
+    "static/media/dbm_banner.jpg": "/dbm/static/media/dbm_banner.f2ee5a48.jpg",
+    "static/media/facebook.svg": "/dbm/static/media/facebook.cf826b07.svg",
+    "static/media/instagram.svg": "/dbm/static/media/instagram.c9b542c9.svg",
+    "static/media/linkedIn.svg": "/dbm/static/media/linkedIn.8adf3e02.svg",
+    "static/media/logo.jpg": "/dbm/static/media/logo.1879e522.jpg",
+    "static/media/smm_banner.jpg": "/dbm/static/media/smm_banner.b59ac6ba.jpg",
+    "static/media/support.png": "/dbm/static/media/support.44c223f7.png",
+    "static/media/twitter.svg": "/dbm/static/media/twitter.8f662cde.svg",
+    "static/media/web_banner.jpg": "/dbm/static/media/web_banner.2b834089.jpg",
+    "static/media/writing.png": "/dbm/static/media/writing.ff6e71f4.png",
+    "static/media/youtube.svg": "/dbm/static/media/youtube.8eeda1ae.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5e6e962d.js",
+    "static/js/2.80e0daeb.chunk.js",
+    "static/css/main.d3b8fed9.chunk.css",
+    "static/js/main.c5b137c6.chunk.js"
+  ]
+}

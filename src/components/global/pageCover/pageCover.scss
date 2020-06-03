@@ -1,8 +1,10 @@
 .pageCover{
-    height: 400px;
+    height: 325px;
     background-size: contain;
     background-repeat: no-repeat;
-    opacity: .8;
+    text-align: center;
+    justify-content: space-around;
+    opacity: .9;
 }
 
 .pageCoverContent{
@@ -28,8 +30,6 @@
     }
 
     h5{
-        border-bottom: 2px dotted grey;
-
         font-family: "Trebuchet MS", Helvetica, sans-serif;
         font-size: 1.1em;
         font-weight: normal;

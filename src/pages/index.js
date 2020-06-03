@@ -8,11 +8,14 @@ import CRow from '../components/aboutUs/cRow';
 import SEO from "../components/global/seo/seo";
 import './index.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import bgURL from '../assets/img/homeCarousel/dbm_banner.jpg'
 
 const IndexPage = () => {
   return (
       <DefaultLayout>
-        <SEO />
+        <SEO 
+            image = {bgURL}
+        />
         <div className='container-fluid'>
             <PageTitle title = 'Grow your business with digital marketing experts' />
             <div className='container'><CarouselComp /></div>

@@ -17,7 +17,7 @@ const Footer = () => {
         <div className='footer'>
             <div className='container-fluid'>
                 <div className='row'>
-                    <div className='col-md-4'>
+                    <div className='col-md-3'>
                         <div className='footerLinkCols'><BrandLogo /></div>
                         <div className='footerLinkCols'>Connect with digital marketing experts on social media to grow your brand and business !!</div>
                         <div className='footerIcons'>
@@ -29,7 +29,7 @@ const Footer = () => {
                         </div>
                         <div className='footerLinkCols'>info@dbrandmarketing.com</div>
                     </div>
-                    <div className='col-md-6 footerTextCOl'>
+                    <div className='col-md-5 footerTextCOl'>
                         <div><span>Top Social Media Sites:</span> Facebook, YouTube, WhatsApp, Instagram, Twitter</div>
                         <div><span>Digital Marketing Services:</span> SMM, SEO, SEM, Content and Email Marketing</div>
                         <div><span>Social Media Tools:</span> Facebook Page, Instagram Stories, YouTube Videos</div>
@@ -38,12 +38,17 @@ const Footer = () => {
                     </div>
                     <div className='col-md-2'>
                         <div className='footerLinkCol'>
-                            <NavLink title='Home' url='/'/>
                             <NavLink title='About Us' url='/about'/>
                             <NavLink title='Services' url='/services'/>
                             <NavLink title='Contact Us' url='/contact'/>
                         </div>
                     </div>                    
+                    <div className='col-md-2'>
+                        <div className='footerLinkCol'>
+                            <NavLink title='Register' url='/register'/>
+                            <NavLink title='Our Work' url='/work'/>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div className='container copyrightText'>

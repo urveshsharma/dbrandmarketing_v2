@@ -5,39 +5,63 @@
     display: flex;
     flex-direction: column;
     border-radius: 8px;
-    background-color: #bde5fc;
+    background-color: rgb(255, 211, 169);
 
 }
 
 .cBoxHeader{
-    border-bottom: 2px solid grey;
 
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: flex-start;
     margin: 5px auto 20px;
 }
 
 .cBoxIcon{
-    flex-grow: 1;
+   justify-content: center;
+   align-content: center;
+   text-align: center;
 }
 
 .cBoxIconImg{
-    width: 64px;
-    height: 64px;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-content: center;
+    justify-self: center;
+}
+
+.cBoxImg{
+    box-shadow: 3px 4px 10px grey;
 }
 
 .cBoxTitle{
     flex-grow: 3;
     font-weight: 700;
-    font-family: Acme, "Helvetica Neue", sans-serif;
+    font-family: 'PT Sans Narrow', "Helvetica Neue", sans-serif;
     font-size: 1.2em;
     justify-content: center;
     align-content: center;
     justify-self: center;
+}
 
+.cBoxTitleStylish{
+    flex-grow: 3;
+    font-weight: 700;
+    font-family: Courgette, "Helvetica Neue", sans-serif;
+    font-size: 1.2em;
+    justify-content: center;
+    align-content: center;
+    justify-self: center;
+    text-align: center;
 }
 
 .cBoxDetail{
-    font-family: Verdana, "Helvetica Neue", sans-serif;
+    font-family: 'Bree Serif', "Helvetica Neue", sans-serif;
     font-size: 1em;
+}
+
+.cBoxDetailStylish{
+    font-family: 'Bree Serif', "Helvetica Neue", sans-serif;
+    font-weight: 500;
+    font-size: 1.2em;
 }

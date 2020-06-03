@@ -8,7 +8,8 @@ class SellerRegForm extends React.Component {
   constructor() {
     super();
     this.state = {
-      responseText: ''
+      responseText: '',
+      responseIndicator: false
     };
     this.handleSubmit = this.handleSubmit.bind(this);
     
@@ -26,7 +27,8 @@ class SellerRegForm extends React.Component {
       if(responseJson.sellRegData){
         console.log(responseJson);
         sessionStorage.setItem('userRegData', JSON.stringify(responseJson));
-        this.setState({responseText: 'Form submitted successfully'});
+        this.setState({responseText: 'Thank You! Details submitted successfully'});
+        this.setState({responseIndicator: true});
       }
     });
 
@@ -106,10 +108,11 @@ class SellerRegForm extends React.Component {
               placeholder="Product or services you wish to sell"
             />
           </div>
-
-          <button className="btn btn-primary">Submit</button>
+          { !(this.state.responseIndicator) ? 
+            <button className="btn btn-primary">Submit</button> 
+            : <div className='formRespDiv'>{this.state.responseText}</div>
+          }
         </form>
-        <div>{this.state.responseText}</div>
       </div>
     );
   }
